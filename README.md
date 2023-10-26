@@ -1,7 +1,8 @@
 # salomaoalves.github.io
-Web page to showcase my personal projects.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate tristique neque, ut congue enim mattis sed. Aenean scelerisque augue libero, ut posuere odio efficitur at. Sed id odio rhoncus, lobortis quam ac, placerat nulla. Integer in tincidunt lacus. Mauris est libero, malesuada sed erat nec, maximus tristique turpis. Sed at sapien tellus. Mauris in tempor justo.
+## Web page to showcase my personal projects.
+
+**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Mauris vulputate tristique neque, ut congue enim mattis sed. Aenean scelerisque augue libero, ut posuere odio efficitur at. Sed id odio rhoncus, lobortis quam ac, placerat nulla. Integer in tincidunt lacus. Mauris est libero, malesuada sed erat nec, maximus tristique turpis. Sed at sapien tellus. Mauris in tempor justo.
 
 Duis vestibulum justo vitae justo sagittis, id finibus ipsum pretium. Phasellus in massa sed lacus ultrices elementum non eu nisi. Duis tempus ligula est, et convallis ligula rutrum a. Aliquam tristique vulputate quam ac condimentum. Maecenas venenatis tincidunt sapien, non cursus felis tincidunt eu. Aliquam at libero porttitor, sollicitudin massa pellentesque, iaculis turpis. Vivamus sit amet maximus est. Aliquam id sem vel libero egestas posuere. Phasellus finibus nulla at est tincidunt bibendum. Nunc sit amet porttitor augue, at laoreet velit. Morbi ut leo et augue efficitur ultrices quis ac sapien. Vestibulum lobortis mauris magna, id tempus lectus ultrices nec. Mauris eget arcu mattis, posuere arcu eu, pretium nunc. Suspendisse neque ligula, lobortis sit amet interdum et, ultricies nec tortor. Duis vel tristique leo. Integer commodo sodales arcu, quis aliquam elit.
 
