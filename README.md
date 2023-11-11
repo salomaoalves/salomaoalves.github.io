@@ -1,4 +1,4 @@
-[Hux Blog](https://huangxuan.me)
+[Salomão Alves](https://https://salomaoalves.github.io/)
 ================================
 
 > I never expect this becomes popular.
