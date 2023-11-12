@@ -211,7 +211,6 @@ _nullptr_!
 
 Deref a nullptr:
 - exception in Java/C#
-- insecure in C/C++     <-- violate memory safety!!
 
 ```haskell
 

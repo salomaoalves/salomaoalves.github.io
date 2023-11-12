@@ -8,8 +8,6 @@ hidden: true
 tags:
   - 笔记
   - 基础
-  - C
-  - C++
 ---
 
 In the last episode we talked about the data representation of integer, a kind

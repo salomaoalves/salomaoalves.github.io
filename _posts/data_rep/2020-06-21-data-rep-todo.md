@@ -8,8 +8,6 @@ published: false
 tags:
   - 笔记
   - 基础
-  - C
-  - C++
 ---
 
 - Endianness

@@ -8,8 +8,6 @@ hidden: true
 tags:
   - 笔记
   - 基础
-  - C
-  - C++
 ---
 
 Integers, or _whole number_ from elemental mathematics, are the most common and
