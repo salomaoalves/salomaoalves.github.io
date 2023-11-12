@@ -1,6 +1,6 @@
 > Read at medium.com: [Upgrading Ele.me to Progressive Web Apps](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)
 
-Since the very first experiments that [@Vue.js tweeted][1], we at Ele.me (the biggest food ordering and delivering company in China) have been working on upgrading our mobile website to a [Progressive Web App][2]. We’re proud to ship the world-first PWA exclusively for the Chinese market, but even prouder to collaborate with Google, UC and Tencent to push the boundary of web experience and browser supports in China.
+ENGLISH TOO, BUT IN POSTS first experiments that [@Vue.js tweeted][1], we at Ele.me (the biggest food ordering and delivering company in China) have been working on upgrading our mobile website to a [Progressive Web App][2]. We’re proud to ship the world-first PWA exclusively for the Chinese market, but even prouder to collaborate with Google, UC and Tencent to push the boundary of web experience and browser supports in China.
 
 
 ## Multi-page, Vue, PWA?
