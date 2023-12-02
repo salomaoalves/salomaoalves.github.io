@@ -12,7 +12,7 @@ The other file in the root is about the **Mojo** language *file `test.mojo`*. Th
 
 
 ## Julia
- > Is a high-level, general-purpose dynamic programming language, most commonly used for numerical analysis and computational science.
+ > Is a high-level, general-purpose dynamic programming language, most commonly used for numerical analysis and computational science
 
 A fast compiled language like C but with a wide array of programming skills from languages like Lisp, Python, Ruby, R and Matlab.\
 Use LLVM low-level virtual machines, to compile the program right down to the machine code level.
@@ -41,14 +41,58 @@ Plot data is always important, here you can find more of how to do it.
 
 
 ## Python
+ > Is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+
+Dynamically typed, interpreter and garbage-collected and supports multiple programming paradigms, like procedural, object-oriented and functional programing.
 
 Inside, can find a folder `data` where the data used in the files *with code explanation* is stored. 
 
-**.ipynb**\
+**Base.ipynb**\
+It's the language basic, the ground zero for beginners. Here you can find information about how to create variables, operators, data types, data colletions *list, dicts, set*, control structures *IFs, Loops, Error Handling*, function definitions, object-oriented programming and how open and edit files.
+
+**CustomFunc.ipynb**\
+Python functions that I did myself and can be usefull in future projects, like to send a Email or a SMS.
+
+**Database.ipynb**\
+If you wanna work with data, you need to deal with database. Here, with have some code of how to use the following database services: SQLite -- MySQL -- PostgreSQL -- AWS RDS -- BigQuery -- MongoDB -- Neo4J.\
+Generally, you'll find how to connect with the db, make sql queries and others things.
+
+**DataScienceCode.ipynb**\
+Here, has some piece of code that can be usefull when is doing a data science project, like to preprocess the data - remove outliers/missing values or label encoder the data, or functions to help explore the data - see its distributions, pivot table, resume data information.\
+Also, in *Free Code*, you'll find piece of code that is usefull when is dealing with data, like dates, filter and so on.
+
+**libsPython.ipynb**\
+One of the good things about Python is the amount of library that exist, here you can find more about some of them. In the begin of the file there is a list with all the libs with some knowledege gather.
+
+**ML&AI.ipynb**\
+Here is methods related with Machine Learning and Artificial Inteligent. How to deal with under or over sampling in a target feature, how to execute feature engineering and selection, some ML Algorithms *Association Rules, Classification/Regression, Model Interpretation* and AI Networks methods.
+
+**Others.ipynb**\
+Knowledege about others topics, like Time Series. Here has many topics, or none, if a topic gets big, is better to create its own jupyter file.
+
+**Statistics.ipynb**\
+Stats functions and methos stay here. Functions to deal with qualitative and quantitative data, correlation/association, sampling functions, statistics tests and distributions examples and usability. 
+
+**Visualization.ipynb**\
+Plot data is important and in Python is good for that. Here, you'll find examples of how to build a bunch of plots using libs, like MatplotLib, Searbon and Plotly.\
+Also, how to build a Dashboard wuing Plotly and general functions that help build all the plot enviroment.\
+The plots are:
+ - Histogram
+ - Box & Violin
+ - Scatterplot & Bubble
+ - Bar & Line & Area & Pie Chart
+ - Dual Axis & Secondary Axes
+ - Waterfall & Bullet & Funnel Chart
+ - Heat Map & Treemap/Mekko Chart
 
 
 
 ## R
+ > Is a open-source programming language for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing
+
+It is written primarily in C, Fortran, and R itself (partially self-hosting) and has a command line interface.\
+Precompiled executables are provided for various operating systems, with multiple third-party graphical user interfaces are also available, such as RStudio and Jupyter.
+
 First, you see two `.pdf` files, both are *Cheat Sheet*, very usefull when are dealing with *Dplyr* or *GGPlot2* packages. And than, three `.md` files with language knowledege.
 
 **R.md**\
