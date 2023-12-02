@@ -2,17 +2,17 @@
 layout: page
 title: "About"
 description: "「他单纯只想把日子过得不浪费」"
-header-img: "img/bg-me-2022.jpg"
+header-img: "img/img_me.jpg"
 header-mask: 0.3
 multilingual: true
 ---
 
 {% include multilingual-sel.html %}
 
-<!-- Chinese Version -->
-<div class="zh post-container">
-    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
-    {{ about_zh | markdownify }}
+<!-- Portuguese Version -->
+<div class="pt post-container">
+    {% capture about_zh %}{% include about/pt.md %}{% endcapture %}
+    {{ about_pt | markdownify }}
 </div>
 
 <!-- English Version -->
@@ -29,9 +29,7 @@ multilingual: true
 
     </div>
 </div>
-<!-- disqus 评论框 end -->
 
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
@@ -44,5 +42,4 @@ multilingual: true
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<!-- disqus 公共JS代码 end -->
 {% endif %}
