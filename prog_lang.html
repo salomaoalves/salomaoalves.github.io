@@ -7,7 +7,7 @@ header-mask: 0.3
 multilingual: true
 ---
 
-{% include multilingual-sel.html %}
+<!--{% include multilingual-sel.html %}-->
 
 <!-- Portuguese Version -->
 <div class="pt post-container">
@@ -17,7 +17,7 @@ multilingual: true
 
 <!-- English Version -->
 <div class="en post-container">
-    {% capture about_en %}{% include about/language.md %}{% endcapture %}
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
     {{ about_en | markdownify }}
 </div>
 
