@@ -2,7 +2,7 @@
 Programming languages that I like and gather some knowledege about it. 
 [Github Repo](https://github.com/salomaoalves/Languages)
 
-*The folders has more detailed information about a certain language, they're: Julia, Python and R.*
+*The folders has more detailed information about a certain language, they're: Julia, Python and R.*\
 *Some files will have more information, other less; varies depending on the objective of the study.*\
 *Remember, this is a work in progress, so some things are still in development and the goal is to never finish, always add and gather more knowledge.*
 
@@ -10,6 +10,7 @@ First, in the root, you can see two `.md` files, which contain information about
 
 The other file in the root is about the **Mojo** language *file `test.mojo`*. This is a new language, recently open-source, so there isn't too much about it, the *gather information process* is still in its early stages.
 
+There are two other folders, called `img`, which contains images that will be used in some file. The other is the `Human` folder, which contain markdown files for languages that human speak, like **English** and **Español** - they contain explanation of grammar, tricks words and more.
 
 ## Julia
  > Is a high-level, general-purpose dynamic programming language, most commonly used for numerical analysis and computational science
