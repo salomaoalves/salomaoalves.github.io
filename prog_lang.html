@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Programming Language"
-description: "Programming and human languages"
-header-img: "img/prog_lang.jpg"
+title: "Languages"
+description: "Programming and Human"
+header-img: "img/prog_lang.jpeg"
 header-mask: 0.3
 multilingual: true
 ---
 
-{% capture about_en %}{% include about/language.md %}{% endcapture %}
-{{ about_en | markdownify }}
+{% capture page_lang %}{% include page_text/language.md %}{% endcapture %}
+{{ page_lang | markdownify }}
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
