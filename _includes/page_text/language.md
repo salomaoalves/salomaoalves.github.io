@@ -1,6 +1,6 @@
 
 Programming languages that I like and gather some knowledege about it. 
-[Github Repo](https://github.com/salomaoalves/Languages)
+[Github Repo link](https://github.com/salomaoalves/Languages)
 
 *The folders has more detailed information about a certain language, they're: Julia, Python and R.*\
 *Some files will have more information, other less; varies depending on the objective of the study.*\
