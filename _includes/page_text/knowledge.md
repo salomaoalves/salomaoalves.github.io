@@ -1,5 +1,9 @@
-# Knowledge
-Things that I learn because of my professional life or that I want to know more about it and that is the result of that.
+Subjects that I learn because of my professional life or that I was curious about it and that is the result of that.
+
+<center>*All docx can be commented, so feel free to comment to update some mistake or to improve in some way.*</center>\
+*If you wanna add a new topic or edit one that already exist, send me a email with the text that I will add into the docx.*
+
+
 [GDocs](https://docs.google.com/document/d/1N15zdvKR0HRKpN2-1ssVOD1f-WOhe5q2fL3f_B8tAgc/edit?usp=sharing) Database
 [GDocs](https://docs.google.com/document/d/1KqlPu863sH0eKOfvvY9fGQnhKmYzO8FdjfFtv5jI_MI/edit?usp=sharing) Data Concepts
 [GDocs](https://docs.google.com/document/d/1T_6BnLTSTsrSU-WsZ4i1ZD8CcJLRB29wwITiKDVg1JQ/edit?usp=sharing) Artificial Inteligence
