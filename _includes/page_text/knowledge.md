@@ -14,7 +14,7 @@ First, let's list the docx related with computer and data science.
    - Data Temas: ETL -- ELT -- Data Ops
    - Data Format: Wide -- Long -- Parquet
  - [**GDocs Artificial Inteligence**](https://docs.google.com/document/d/1T_6BnLTSTsrSU-WsZ4i1ZD8CcJLRB29wwITiKDVg1JQ/edit?usp=sharing) knowledege about AI and Machine Learning, from concepts and fields to optimization and algorithms. The math part of some functions and methods are also descripted.
-   - Concepts: Statistical Learning -- Prediction vs Inference -- Model Evalution/Selection -- Hyperparameter Tuning -- Bias vs Variance
+   - Concepts: Statistical Learning -- Prediction vs Inference -- Model Evaluation/Selection -- Hyperparameter Tuning -- Bias vs Variance
    - Fields: NLP -- Neural Networks -- Evolutionary Computation -- Vision/Robotics -- Speech Processing
    - Optimization: SGD (w/ Momentum) -- Normal Equation -- Regularization -- Ada Grad -- Lagrange Multipliers
    - Algorithm: Linear Regression -- Classification *Naive Bayes, Logistic Reg, Maximum Likelihood* -- Decision Trees -- SVM -- KNN -- KMeans -- DBSCAN -- Reinforcement Learning -- Feature Selection / Dimensionality Reduction -- Associate Rules -- Neural Network
