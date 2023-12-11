@@ -11,45 +11,21 @@ tags:
     - Plotly
 ---
 
-> Test[《JavaScript 二十年》](https://zhuanlan.zhihu.com/p/373065151) BBBBBB
+> A Report and Dashboard of your life, at least how much you are willing to track in Google Calender.
 
-write about GCalender here
+Click here to see the [Github Repo](https://github.com/salomaoalves/DataScience_Visualization/tree/main/GCalendar) with more technical information *has a readme*.
 
-Each post is a project - some git repo can be a post (general things inside)
 
-# Data Science - Analysis and Explore
-Projects related with Data Analysis and Data Explore
-[Github Repo](https://github.com/salomaoalves/DataScience_Analysis-Explore)
+This project ~~which can me divide in two parts~~ has the goal to show ~~in two differents ways~~ the events from a **Google Calender** account. 
 
-# Data Science - Machine Learning
-Projects related with Machine Learning
-[Github Repo](https://github.com/salomaoalves/DataScience_MachineLearning)
+The Google Calender events need to follow a pattern in realted to its colors. Since I was building it to use with my personal account, two patterns was created, or almost two. Look, for date older than 2022 ~~from 2018 to 2021, exactly~~ a random report was made, you can see more about in `Report|2018-21` and `report_specifYear.py` - this was the "first" part. The other part use the others files and folders, and the events are from 2022 onwards.
 
-# Data Science - Visualization
-Projects related with Data Visualization
-[Github Repo](https://github.com/salomaoalves/DataScience_Visualization)
+In short, the code usefull for you to use in your personal Google Calender is every file and folder, except `Report|2018-21` and `report_specifYear.py` *and one more*. IMPORTANT remember to see the colors patterns for the events, they are extremely important.
 
-# Data Science - Others
-Projects related with other areas, like Recommend Systems
-[Github Repo](https://github.com/salomaoalves/DataScience_Others)
+You can visualize you events in two ways, with a **Report** or a **Dashboard**.
 
-# Machine Learning
-Implementation of machine learning algorithms
-[Github Repo](https://github.com/salomaoalves/MachineLearning)
+## Report
 
-# Python Things
-Random python code - used during learning. Nothing relevant.
-[Github Repo](https://github.com/salomaoalves/PythonThings)
 
-# College Assignment
-This is all assignment I did, sometimes in group with some colleagues, in College.
-[Github Repo](https://github.com/salomaoalves/College-Assignment)
+## Dashboard
 
-# Tensor Flow
-Some AI code using Tensor Flow
-[Github Repo](https://github.com/salomaoalves/TensorFlow)
-
-# Tableau Dashs
-Here, I created some dashboards to train my Tableau skills. The data set used is 'BaseVendas.xlsx'.
-[Github Repo](https://github.com/salomaoalves/TableauDashboards)
-[Github Repo]()[Github Repo]()
