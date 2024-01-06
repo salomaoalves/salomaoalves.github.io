@@ -6,13 +6,13 @@ Programming languages that I like and gather some knowledege about it.
 *Some files will have more information, other less; varies depending on the objective of the study.*\
 *Remember, this is a work in progress, so some things are still in development and the goal is to never finish, always add and gather more knowledge.*
 
-First, in the root, you can see two `.md` files, which contain information about **GoLang** and **Octave**. In both, I didn't gather to much knowledege about it, more the basic and first steps. The reason is that I find them interesting but not the main ones used in the data field, so I didn't want expand too much time on them *unfortunately time is finite*. So I dicide to just take some look, gather some information, and, maybe, in the future, add more knowledge to them.
+First, in the root, you can see two `.md` files, which contain information about [**GoLang**](https://github.com/salomaoalves/Languages/blob/main/GoLang.md) and [**Octave**](https://github.com/salomaoalves/Languages/blob/main/Octave.md). In both, I didn't gather to much knowledege about it, more the basic and first steps. The reason is that I find them interesting but not the main ones used in the data field, so I didn't want expand too much time on them *unfortunately time is finite*. So I dicide to just take some look, gather some information, and, maybe, in the future, add more knowledge to them.
 
 The other file in the root is about the **Mojo** language *file `test.mojo`*. This is a new language, recently open-source, so there isn't too much about it, the *gather information process* is still in its early stages.
 
-There are two other folders, called `img`, which contains images that will be used in some file. The other is the `Human` folder, which contain markdown files for languages that human speak, like **English** and **Español** - they contain explanation of grammar, tricks words and more.
+There are two other folders, called `img`, which contains images that will be used in some file. The other is the `Human` folder, which contain markdown files for languages that human speak, like [**English**](https://github.com/salomaoalves/Languages/blob/main/Human/english.md) and [**Español**](https://github.com/salomaoalves/Languages/blob/main/Human/espanol.md) - they contain explanation of grammar, tricks words and more.
 
-## Julia
+## [Julia](https://github.com/salomaoalves/Languages/tree/main/Julia)
  > Is a high-level, general-purpose dynamic programming language, most commonly used for numerical analysis and computational science
 
 A fast compiled language like C but with a wide array of programming skills from languages like Lisp, Python, Ruby, R and Matlab.\
@@ -20,7 +20,7 @@ Use LLVM low-level virtual machines, to compile the program right down to the ma
 
 Inside, can find a folder `data` where the data, used by the jupyter notebooks, is stored. The `.ipynb` files this notebooks with the language knowledege - see below for more.
 
-**AI_ML.ipynb**\
+[**AI_ML.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Julia/AI_ML.ipynb)\
 Here you can find how to perform some Artificial Inteligency and/or Machine Learning algorithms and methods, like Dimensionality Reduction, Label Encoder, AUC and Confusion Matrix, Clustering, Classification and Regression.
 
 **Base.ipynb**\
