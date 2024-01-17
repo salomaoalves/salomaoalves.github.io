@@ -24,6 +24,8 @@ In short, the code usefull for you to use in your personal Google Calender is ev
 
 You can visualize you events in two ways, with a **Report** or a **Dashboard**.
 
+All the code was develop using Python, the plots using Plotly and to get the data the Google Calender API.
+
 ## Report
 
 
