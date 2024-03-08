@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "AirBnB"
+title:        "Wikipedia Link"
 author:       "Salomon"
 header-style: text
 catalog:      true
