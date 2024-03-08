@@ -67,7 +67,7 @@ netease_comment: false
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Feel free to reach me out!!!"
-sidebar-avatar: img/img_me.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://media.licdn.com/dms/image/D4D03AQGlYyqgFzlq8g/profile-displayphoto-shrink_200_200/0/1702336235830?e=1715212800&v=beta&t=k5_s1RNVY3Fq2HsYKv8ImjWtuEvSN-7y9ZleQ1z-bzw # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
