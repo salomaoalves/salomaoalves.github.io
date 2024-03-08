@@ -13,11 +13,9 @@ future: true
 
 # SNS settings
 RSS: false
-#weibo_username: huxpro
-#zhihu_username: huxpro
+#insta_username: salomaoalves98
 github_username: salomaoalves
-#twitter_username: huxpro
-#facebook_username:  huxpro
+whatsapp_username: "5538999946729"
 linkedin_username:  salomao-alves
 
 # Build settings
