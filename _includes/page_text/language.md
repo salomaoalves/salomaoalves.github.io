@@ -2,29 +2,28 @@
 Programming languages that I like and gather some knowledege about it. 
 [Github Repo link](https://github.com/salomaoalves/Languages)
 
-*The folders has more detailed information about a certain language, they're: Julia, Python and R.*\
+*The folders has more detailed information about a certain language than the files.*\
 *Some files will have more information, other less; varies depending on the objective of the study.*\
 *Remember, this is a work in progress, so some things are still in development and the goal is to never finish, always add and gather more knowledge.*
 
-First, in the root, you can see two `.md` files, which contain information about [**GoLang**](https://github.com/salomaoalves/Languages/blob/main/GoLang.md) and [**Octave**](https://github.com/salomaoalves/Languages/blob/main/Octave.md). In both, I didn't gather to much knowledege about it, more the basic and first steps. The reason is that I find them interesting but not the main ones used in the data field, so I didn't want expand too much time on them *unfortunately time is finite*. So I dicide to just take some look, gather some information, and, maybe, in the future, add more knowledge to them.
+First, in the root, you can see two `.md` files, which contain information about [**GoLang**](https://github.com/salomaoalves/Languages/blob/main/GoLang.md) and [**Octave**](https://github.com/salomaoalves/Languages/blob/main/Octave.md). In both, I didn't gather to much knowledege about it, more the basic and first steps. The reason is that I find them interesting but not the main ones used in the data field, so I didn't want expand too much time on them *unfortunately time is finite*. So I decided to just take some look, gather some information, and, maybe, in the future, add more knowledge to them.
 
 The other file in the root is about the **Mojo** language *file `test.mojo`*. This is a new language, recently open-source, so there isn't too much about it, the *gather information process* is still in its early stages.
 
-There are two other folders, called `img`, which contains images that will be used in some file. The other is the `Human` folder, which contain markdown files for languages that human speak, like [**English**](https://github.com/salomaoalves/Languages/blob/main/Human/english.md) and [**Español**](https://github.com/salomaoalves/Languages/blob/main/Human/espanol.md) - they contain explanation of grammar, tricks words and more.
+There are two other folders, called `img`, which contains images that will be used in some file. And the `Human` folder, which contain markdown files for languages that human speak, like [**English**](https://github.com/salomaoalves/Languages/blob/main/Human/english.md) and [**Español**](https://github.com/salomaoalves/Languages/blob/main/Human/espanol.md) - they contain explanation of grammar, tricks words and more.
 
 ## [Julia](https://github.com/salomaoalves/Languages/tree/main/Julia)
  > Is a high-level, general-purpose dynamic programming language, most commonly used for numerical analysis and computational science
 
-A fast compiled language like C but with a wide array of programming skills from languages like Lisp, Python, Ruby, R and Matlab.\
-Use LLVM low-level virtual machines, to compile the program right down to the machine code level.
+A fast compiled language like C but with a wide array of programming skills from languages like Lisp, Python, Ruby, R and Matlab. Use LLVM low-level virtual machines, to compile the program right down to the machine code level.
 
-Inside, can find a folder `data` where the data, used by the jupyter notebooks, is stored. The `.ipynb` files this notebooks with the language knowledege - see below for more.
+Inside, can find a folder `data` where the data, used by the jupyter notebooks, is stored. The `.ipynb` files has the language knowledege.
 
 [**AI_ML.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Julia/AI_ML.ipynb)\
 Here you can find how to perform some Artificial Inteligency and/or Machine Learning algorithms and methods, like Dimensionality Reduction, Label Encoder, AUC and Confusion Matrix, Clustering, Classification and Regression.
 
 [**Base.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Julia/Base.ipynb)\
-Here is the language basic, things like Operators, how to install and use package, the Data Types, Data Structures, Loops, Functions, Constructor and Macro. With this, you already can build some application, resolve computer problems and start learning the language. Here it'll be the ground zero for beginners.
+Here is the language basic, things like operators, how to install and use package, the data types, data structures, loops, functions, constructor and macro. With this, you already can build some application, resolve computer problems and start learning the language. Here it'll be the ground zero for beginners.
 
 [**Dataframe.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Julia/Dataframe.ipynb)\
 Here has a bunch of functions, methods and tricks to deal with data in a Dataframe format. You can find how too read one *in more than one way*, make filters, selects rows, joins, rename cols/rows, data details, transform and group by methods, sort, missing values and so on.\
@@ -46,7 +45,7 @@ Plot data is always important, here you can find more of how to do it.
 
 Dynamically typed, interpreter and garbage-collected and supports multiple programming paradigms, like procedural, object-oriented and functional programing.
 
-Inside, can find a folder `data` where the data used in the files *with code explanation* is stored. 
+Inside, can find a folder `data` where the data used in the files *with code explanation* is stored. The `.ipynb` files has the language knowledege.
 
 [**Base.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Python/Base.ipynb)\
 It's the language basic, the ground zero for beginners. Here you can find information about how to create variables, operators, data types, data colletions *list, dicts, set*, control structures *IFs, Loops, Error Handling*, function definitions, object-oriented programming and how open and edit files.
@@ -63,7 +62,7 @@ Here, has some piece of code that can be usefull when is doing a data science pr
 Also, in *Free Code*, you'll find piece of code that is usefull when is dealing with data, like dates, filter and so on.
 
 [**libsPython.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Python/libsPython.ipynb)\
-One of the good things about Python is the amount of library that exist, here you can find more about some of them. In the begin of the file there is a list with all the libs with some knowledege gather.
+One of the good things about Python is the amount of library that exist, here you can find more about some of them. In the begin of the file there is a list with all the libs with some knowledge gather.
 
 [**ML&AI.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Python/ML%26AI.ipynb)\
 Here is methods related with Machine Learning and Artificial Inteligent. How to deal with under or over sampling in a target feature, how to execute feature engineering and selection, some ML Algorithms *Association Rules, Classification/Regression, Model Interpretation* and AI Networks methods.
@@ -76,16 +75,7 @@ Stats functions and methos stay here. Functions to deal with qualitative and qua
 
 [**Visualization.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Python/Visualization.ipynb)\
 Plot data is important and in Python is good for that. Here, you'll find examples of how to build a bunch of plots using libs, like MatplotLib, Searbon and Plotly.\
-Also, how to build a Dashboard wuing Plotly and general functions that help build all the plot enviroment.\
-The plots are:
- - Histogram
- - Box & Violin
- - Scatterplot & Bubble
- - Bar & Line & Area & Pie Chart
- - Dual Axis & Secondary Axes
- - Waterfall & Bullet & Funnel Chart
- - Heat Map & Treemap/Mekko Chart
-
+Also, how to build a Dashboard using Plotly and general functions that help build all the plot environment.\
 
 
 ## [R](https://github.com/salomaoalves/Languages/tree/main/R)
