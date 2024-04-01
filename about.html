@@ -1,0 +1,14 @@
+---
+layout: page
+title: "About"
+description: "A little bit about myself and my path."
+header-img: "img/about_me.jpg"
+header-mask: 0.3
+multilingual: true
+---
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include page_text/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
