@@ -14,7 +14,7 @@ hero:
       link: /guide/what-is-vitepress
     - theme: alt
       text: Quickstart
-      link: /guide/getting-started
+      link: /guide/2023-11-12-gcalender
     - theme: alt
       text: GitHub
       link: https://github.com/vuejs/vitepress
