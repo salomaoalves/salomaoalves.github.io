@@ -13,7 +13,7 @@ tags:
     - DataAnalysis
 ---
 
-> Here has some projects about explore and analyze data; they're more simple, are just analyze some random data. So a list of tecquines used will be show and a short description of each project.
+> Here has some projects about explore and analyze data; they're more simple, are just analyze some random data. Each project has a short descriptions and a list of tecniques used.
 
 Here is the main repo with all the projects together [Github Repo](https://github.com/salomaoalves/DataScience_Analysis-Explore).
 
@@ -36,7 +36,8 @@ In the analysis, I used basically functions like `summary`, plot and customize a
 ## [Company Sales](https://github.com/salomaoalves/DataScience_Analysis-Explore/tree/main/CompanySales)
 Here I answer 10 question about sales data from a company, by using Python and libs like **pandas**, **numpy** and **matplotlib**. Also, a cleaning to set the columns date correct is done in the begining.
 
-To respond: from the pandas tools, I used `values_count()`, `.groupby()`, `sort_values()`, aggregations functions and make some filters; to plot I used the `.plot()` function from matplotlib. 
+To respond: from the pandas tools, I used `.values_count()`, `.groupby()`, `.sort_values()`, aggregations functions and make some filters; to plot I used the `.plot()` function from matplotlib. 
+
 
 ## [Human Resources](https://github.com/salomaoalves/DataScience_Analysis-Explore/tree/main/HumanResources)
 Explore data related with HR, using Python and R. *Proposed by Data Science Academy*
