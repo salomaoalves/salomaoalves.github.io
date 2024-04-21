@@ -11,11 +11,29 @@ tags:
     - MachineLearning
 ---
 
-> Here has some projects about machine learning algorithm; they're all a script, following a pattern. So a list of tecquines used will be show and a short description of each project.
+> Here has some projects about machine learning algorithm; they're all a script, following a pattern.
 
-# Data Science - Machine Learning
-[Github Repo](https://github.com/salomaoalves/DataScience_MachineLearning) where I develop machine learning and inteligence artificial algorithms. Above a list of each project explanation:
-  - [Customer Churn](https://salomaoalves.github.io/): I created a logistic regression model, using Python, to predict whether or not a customer would cancel their cell phone plan - along with the percentage of each possibility. Also, some cleaning, exploration and data preparation was done, along with feature selection (kBest). *Proposed by Data Science Academy*
-  - [Customer Satisfaction](https://salomaoalves.github.io/): algorithm to predict customer satisfaction with a banking institution. Also, some cleaning, exploration and data preparation was done, along with feature selection (Correlation) and machine learning (Logistic Reg, Naive Bayes, Random Forest, SBC and SGBC Class). *Proposed by Data Science Academy*
-  - [Energy](https://salomaoalves.github.io/): algorithm to predict household energy usage. Also, some cleaning, exploration and data preparation was done, along with feature selection (Decision Tree) and machine learning (Linear Reg, Lasso, Random Forest and XGB Reg). *Proposed by Data Science Academy*
-  - [Fraud Detection](https://salomaoalves.github.io/): using R and data about clicks (in ads), I did some data cleaning, feature selection (Random Forest) and machine learning algorithms (SVM and Random Forest) to predict click fraud in companies advertising online. *Proposed by Data Science Academy*
+
+## [Customer Churn](https://github.com/salomaoalves/DataScience_MachineLearning/tree/main/CustomerChurn)
+I created a logistic regression model, using Python, to predict whether or not a customer would cancel their cell phone plan - along with the percentage of each possibility. *Proposed by Data Science Academy*
+
+After that, some data munging (checking null values, label encode and a normalization with **sklearn** and data balancing with `RandomOverSample()` function from **imblearn**) is done. Then a visualization with **matplotlib** is done for some columns. Follow by a feature selection, with **sklearn** using the `SelectKBest` function to get the best features to the model - use `LogisticRegression` to get the best ones.
+
+Finally, a logistic regression algorithm (from **sklearn**) is apply to train the data. Use `GridSearchCV` to get the best parameters and make a confusion matrix, accuracy, sensibility and precision to evaluate the model.
+
+## [Customer Satisfaction](https://github.com/salomaoalves/DataScience_MachineLearning/tree/main/CustomerSatisfaction)
+Python notebook to predict customer satisfaction with a banking institution. *Proposed by Data Science Academy*
+
+First, some mugning (remove constants columns, create new columns, remove outlier with `IQR` and `ZScore` method) is done. Then explore (use **matplotlib** and **seaborn** to plot the graphics) the data columns. A feature selection (with `correlation` method) to get the best columns to the model.
+
+Finally, a ML model is created (can be a Logistic Reg, Naive Bayes, Random Forest, SVC or XGBC Class from **sklearn** lib) to train the data. Use `GridSearchCV` to get the best parameters and make a confusion matrix, accuracy, sensibility and precision to evaluate the model.
+
+## [Energy](https://github.com/salomaoalves/DataScience_MachineLearning/tree/main/Energy)
+Algorithm  in Python to predict household energy usage. *Proposed by Data Science Academy*
+
+First, a munging (to remove date and constants colunms) is done, then a visualization **seaborn** is done. Apply normalization and label encoder (from **sklearn**) into the data. A feature selection with `DecisionTreeRegressor` is done. Finally, a ml algorithm (Linear Reg, Lasso, Random Forest and XGB Reg) is executed, use RMSE, MAE, MEDAE and Cross Validation to evalute the model.
+
+## [Fraud Detection](https://github.com/salomaoalves/DataScience_MachineLearning/tree/main/FraudDetection)
+Using R and data about clicks (in ads), I did a ml script to predict click fraud in companies advertising online. *Proposed by Data Science Academy*
+
+First, munging the data (drop na data, data type transformation, replace feature values and delete column). Then a feature selection using `randomForest` function is done, followed by a machine learning algorithms (SVM and Random Forest).
