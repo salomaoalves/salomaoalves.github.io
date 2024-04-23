@@ -6,11 +6,11 @@ Programming languages that I like and gather some knowledege about it.
 *Some files will have more information, other less; varies depending on the objective of the study.*\
 *Remember, this is a work in progress, so some things are still in development and the goal is to never finish, always add and gather more knowledge.*
 
-First, in the root, you can see two `.md` files, which contain information about [**GoLang**](https://github.com/salomaoalves/Languages/blob/main/GoLang.md) and [**Octave**](https://github.com/salomaoalves/Languages/blob/main/Octave.md). In both, I didn't gather to much knowledege about it, more the basic and first steps. The reason is that I find them interesting but not the main ones used in the data field, so I didn't want expand too much time on them *unfortunately time is finite*. So I decided to just take some look, gather some information, and, maybe, in the future, add more knowledge to them.
+First, in the root, you can see two `.md` files, which contain information about [**GoLang**](https://github.com/salomaoalves/Languages/blob/main/GoLang.md) and [**Octave**](https://github.com/salomaoalves/Languages/blob/main/Octave.md). In both, I didn't gather to much knowledege about it, more the basic and first steps. The reason is that I find them interesting but not the main ones used in the data field, so I didn't want expend too much time on them *unfortunately time is finite*. So I decided to just take some look, gather some information, and, maybe, in the future, add more knowledge to them.
 
 The other file in the root is about the **Mojo** language *file `test.mojo`*. This is a new language, recently open-source, so there isn't too much about it, the *gather information process* is still in its early stages.
 
-There are two other folders, called `img`, which contains images that will be used in some file. And the `Human` folder, which contain markdown files for languages that human speak, like [**English**](https://github.com/salomaoalves/Languages/blob/main/Human/english.md) and [**Español**](https://github.com/salomaoalves/Languages/blob/main/Human/espanol.md) - they contain explanation of grammar, tricks words and more.
+There are two other folders, called `img`, which contains images that will be used in some file. And the `Human` folder, which contain markdown files for languages that human speak; for now, there is a [**English**](https://github.com/salomaoalves/Languages/blob/main/Human/english.md) and [**Español**](https://github.com/salomaoalves/Languages/blob/main/Human/espanol.md) file - they contain explanation of grammar, tricks words and more.
 
 ## [Julia](https://github.com/salomaoalves/Languages/tree/main/Julia)
  > Is a high-level, general-purpose dynamic programming language, most commonly used for numerical analysis and computational science
@@ -68,14 +68,14 @@ One of the good things about Python is the amount of library that exist, here yo
 Here is methods related with Machine Learning and Artificial Inteligent. How to deal with under or over sampling in a target feature, how to execute feature engineering and selection, some ML Algorithms *Association Rules, Classification/Regression, Model Interpretation* and AI Networks methods.
 
 [**Others.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Python/Others.ipynb)\
-Knowledege about others topics, like Time Series. Here has many topics, or none, if a topic gets big, is better to create its own jupyter file.
+Knowledege about others topics, but in early stages. Here has many topics, or none, if a topic gets big, is better to create its own jupyter file.
 
 [**Statistics.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Python/Statistics.ipynb)\
 Stats functions and methos stay here. Functions to deal with qualitative and quantitative data, correlation/association, sampling functions, statistics tests and distributions examples and usability. 
 
 [**Visualization.ipynb**](https://github.com/salomaoalves/Languages/blob/main/Python/Visualization.ipynb)\
 Plot data is important and in Python is good for that. Here, you'll find examples of how to build a bunch of plots using libs, like MatplotLib, Searbon and Plotly.\
-Also, how to build a Dashboard using Plotly and general functions that help build all the plot environment.\
+Also, how to build a Dashboard using Plotly and general functions that help build all the plot environment.
 
 
 ## [R](https://github.com/salomaoalves/Languages/tree/main/R)
@@ -87,7 +87,7 @@ Precompiled executables are provided for various operating systems, with multipl
 First, you see two `.pdf` files, both are *Cheat Sheet*, very usefull when are dealing with [*Dplyr*](https://github.com/salomaoalves/Languages/blob/main/R/R-Dplyr-CheatSheet.pdf) or [*GGPlot2*](https://github.com/salomaoalves/Languages/blob/main/R/R-GGPlot2-CheatSheet.pdf) packages. And then, three `.md` files with language knowledege.
 
 [**R.md**](https://github.com/salomaoalves/Languages/blob/main/R/R.md)\
-The basic, the ground zero for beginners in R. Here can be found more about how to use markdown within R, build-in functions, data types, operators, OOP, structures, packages *dplyr, tidyr, ..* and how to plot data
+The basic, the ground zero for beginners in R. Here can be found more about how to use markdown within R, build-in functions, data types, operators, OOP, structures, packages *dplyr,tidyr,..* and how to plot data
 
 [**RDataScience.md**](https://github.com/salomaoalves/Languages/blob/main/R/RDataScience.md)\
 Functions and methods related with some steps during a Data Science project. You can find ways to clean the data, make data correlation, feature selection, data split and machine learning *- data in a dataframe format*.

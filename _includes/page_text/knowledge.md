@@ -1,7 +1,7 @@
 Subjects that I learn because of my professional life or that I was curious about it, so all gather all together, separated it into topics (Google Docs) and that is the result.
 
 
-<center>All docx can be commented, so feel free to comment to update some mistake or to improve in some way. If you wanna add  or edit a topic, send me a email with the text that I will add it into the docx.</center>
+<center>All docx can be commented, so feel free to comment to update some mistake or to improve in some way; or you can send me a email with the text that I will add it into the docx.</center>
 
 
 First, let's list the docx related with computer and data science.
