@@ -35,7 +35,7 @@ During each **code block**, some *statistics* or *metric* - a *aggregation* is e
 ## Dashboard
 To a dashboard run the `dashboard.py` file, which will take the data *(from `modConstants`)* and start building the dash, by preparing the data, create initial/general graphics and build the web pages (has a main one and subjacents for the events types) - also the folder `Visu` has functions used for this file.
 
-The dashboard is build in html files (so can be send by email or can be upload in a serve) - the graphics are build using Plotly and than transformed into html code with Plotly Offline. This transformation is made during the build of each graphic (bar, table, lines), in `Visu/build.py`; in the end of each function, the plot is export to a given html file.
+The dashboard is build in html files (so can be send by email or can be upload in a serve) - the graphics are build using Plotly and then transformed into html code with Plotly Offline. This transformation is made during the build of each graphic (bar, table, lines), in `Visu/build.py`; in the end of each function, the plot is export to a given html file.
 
 In `Visu/create_html.py` there are the functions responsible to build the html code - the dashboards webpages with the graphics in right place - and put the graphic html code (will read from the exported file before) in the correct format.  
 

@@ -84,7 +84,7 @@ Also, how to build a Dashboard using Plotly and general functions that help buil
 It is written primarily in C, Fortran, and R itself (partially self-hosting) and has a command line interface.\
 Precompiled executables are provided for various operating systems, with multiple third-party graphical user interfaces are also available, such as RStudio and Jupyter.
 
-First, you see two `.pdf` files, both are *Cheat Sheet*, very usefull when are dealing with [*Dplyr*](https://github.com/salomaoalves/Languages/blob/main/R/R-Dplyr-CheatSheet.pdf) or [*GGPlot2*](https://github.com/salomaoalves/Languages/blob/main/R/R-GGPlot2-CheatSheet.pdf) packages. And than, three `.md` files with language knowledege.
+First, you see two `.pdf` files, both are *Cheat Sheet*, very usefull when are dealing with [*Dplyr*](https://github.com/salomaoalves/Languages/blob/main/R/R-Dplyr-CheatSheet.pdf) or [*GGPlot2*](https://github.com/salomaoalves/Languages/blob/main/R/R-GGPlot2-CheatSheet.pdf) packages. And then, three `.md` files with language knowledege.
 
 [**R.md**](https://github.com/salomaoalves/Languages/blob/main/R/R.md)\
 The basic, the ground zero for beginners in R. Here can be found more about how to use markdown within R, build-in functions, data types, operators, OOP, structures, packages *dplyr, tidyr, ..* and how to plot data

@@ -36,8 +36,8 @@ The project is composed with the following folder and files:
  - **createFakeData** *python script* responsible to create and store the fake data used to test
  - **graph_visu** *python file* with functions that will display the graph - use lib **NetworkX** to help 
  - **ingestion** *python file* responsible to collect the data and build/ingest the graph, allways starting with a word. Has two main functions; (1) `auto_ingestion()`, start with random words, and (2) `costum_ingestion()`, start with a inputed word.
- - **main** main *python script*, will create a prompt in terminal with better layout, in there you will have a short description and explanation about the project and how it works and than you can start it - control the project
- - **path** *python file* with functions related to path info, that is, given two words, show the path between than, to the word Philosophy, if the word belong to a loop and others
+ - **main** main *python script*, will create a prompt in terminal with better layout, in there you will have a short description and explanation about the project and how it works and then you can start it - control the project
+ - **path** *python file* with functions related to path info, that is, given two words, show the path between them, to the word Philosophy, if the word belong to a loop and others
  - **summary** *python file* has the functions responsible to generate a summary - graph degrees, loops, precceder/successor nodes, path between nodes. With the help of Cypher, I was able to read the data and manipulate it - make filters, aggregations and so on
 
 All the files has comments, so you are able to understand how they works - but in the repo there is a readme with more information.
