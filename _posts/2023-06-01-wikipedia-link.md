@@ -26,7 +26,7 @@ Help to gather the data from Wikipedia pages. First, in **ETL/connection.py**, u
 **ETL/extractWords.py** and **ETL/autoWords.py** are responsible to get the wiki source page (call *connection.py funcs*) and extract the words from the html. To do the last one, I use **BeautifulSoup** lib to extract blocks of words / paragraphs (use funcs like *find_all()* and *find()*) and **re** libs *Reguler Expression* to query into the paragraphs, to apply the rules and extract the correct word. Actually, *autoWords.main()* will only collect differents words, where each one of them will be passed to *extractWords.main()*, where the graph starting from this words is build.
 
 ### Neo4J / Cypher
-You can find all functions realted to it in **ETL/neo4jFunc.py**. There, has functions that will, using Cypher language, get nodes, paths and loops, insert pair of nodes to build the graph, and delete nodes. To work, you gonna have two functions for each action, the main one, which will create the session, and a auxiliar one, where the cypher language is used to work with the data.
+You can find all functions related to it in **ETL/neo4jFunc.py**. There, has functions that will, using Cypher language, get nodes, paths and loops, insert pair of nodes to build the graph, and delete nodes. To work, you gonna have two functions for each action, the main one, which will create the session, and a auxiliar one, where the cypher language is used to work with the data.
 
 
 ## Structure
@@ -35,7 +35,7 @@ The project is composed with the following folder and files:
  - **common** *python file* with common and diferents functions used during many files 
  - **createFakeData** *python script* responsible to create and store the fake data used to test
  - **graph_visu** *python file* with functions that will display the graph - use lib **NetworkX** to help 
- - **ingestion** *python file* responsible to collect the data and build/ingest the graph, allways starting with a word. Has two main functions; (1) `auto_ingestion()`, start with random words, and (2) `costum_ingestion()`, start with a inputed word.
+ - **ingestion** *python file* responsible to collect the data and build/ingest the graph, allways starting with a word. Has two main functions; (1) `auto_ingestion()`, start with random words, and (2) `costum_ingestion()`, start with a inputed word
  - **main** main *python script*, will create a prompt in terminal with better layout, in there you will have a short description and explanation about the project and how it works and then you can start it - control the project
  - **path** *python file* with functions related to path info, that is, given two words, show the path between them, to the word Philosophy, if the word belong to a loop and others
  - **summary** *python file* has the functions responsible to generate a summary - graph degrees, loops, precceder/successor nodes, path between nodes. With the help of Cypher, I was able to read the data and manipulate it - make filters, aggregations and so on

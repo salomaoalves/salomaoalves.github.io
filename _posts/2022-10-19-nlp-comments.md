@@ -31,7 +31,7 @@ During the application, some NLP methods was applied. Tokenization and stop word
 **services/tfidf.py** use bag of words to store the comments and calculate the tf-idf. This calculation is made by hand, using the python functionally to replicate the formulas. **services/wordcloud.py** it'll create a wordcloud, by using the module **wordcloud**. Save the image into a customized path and return it.
 
 ### Sentiment Analysis
-First, **services/set_train.py** script 'll take train data from differents sources, put in a specific format and then, stored it (in services/data) to be used later. Run before the application.
+First, **services/set_train.py** script 'll take train data from differents sources, put in a specific format and then, stored it (in **services/data**) to be used later. Run before the application.
 
 **services/sent_analysis.py** is the file with the functions used for the application. It'll get the data to train the model (generated in *set_train.py*), put in a Vectorize format, train a *BernoulliNB()* algorithm from **sklearn**, make predctions with the extract data and then, put the result in a pre-defined format to be returned.
 
@@ -39,7 +39,7 @@ First, **services/set_train.py** script 'll take train data from differents sour
 ## Structure
 The projects is composed with the following folder and files:
   - **media_files** *folder* contain the txt files that can be used as source data
-  - **services** *folder* contain the python code responsible to scrap the data, treat it and apply some NLP methods (tokenization, n-gram, TF-IDF, Wordcloud) - also a sentiment analysis is done.
+  - **services** *folder* contain the python code responsible to scrap the data, treat it and apply some NLP methods (tokenization, n-gram, TF-IDF, Wordcloud) - also a sentiment analysis is done
   - **static** *folder* contain static data - like the CSS files, images, JS scripts, the created  n-gram in csv format
   - **templates** *folder* contain the html file used to show the information - front end part
   - **Dockerfile** *docker file* to deploy the app

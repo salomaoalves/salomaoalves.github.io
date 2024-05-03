@@ -26,7 +26,7 @@ Python notebook to predict customer satisfaction of a banking institution. *Prop
 
 First, some mugning (remove constants columns, create new columns, remove outlier with `IQR` and `ZScore` method) is done. Then explore (use **matplotlib** and **seaborn** to plot the graphics) the data columns. A feature selection (with `correlation` method) to get the best columns to the model.
 
-Finally, a ML model is created (can be a Logistic Reg, Naive Bayes, Random Forest, SVC or XGBC Class from **sklearn** lib) to train the data. Use `GridSearchCV` to get the best parameters and make a confusion matrix, accuracy, sensibility and precision to evaluate the model.
+Finally, a ML model is created (can be a Logistic Reg, Naive Bayes, Random Forest, SVC or XGBC Class from **sklearn** lib) to train the data. Use `GridSearchCV` to get the best parameters and calculate the confusion matrix, accuracy, sensibility and precision to evaluate the model.
 
 ## [Energy](https://github.com/salomaoalves/DataScience_MachineLearning/tree/main/Energy)
 Algorithm in Python to predict household energy usage. *Proposed by Data Science Academy*
@@ -36,4 +36,4 @@ First, a munging (to remove date and constants colunms) is done, then a visualiz
 ## [Fraud Detection](https://github.com/salomaoalves/DataScience_MachineLearning/tree/main/FraudDetection)
 Using R and data about clicks (in ads), I did a ML script to predict click fraud in companies advertising online. *Proposed by Data Science Academy*
 
-First, munging the data (drop na data, data type transformation, replace feature values and delete column). Then a feature selection using `randomForest` function is done, followed by a machine learning algorithms (SVM and Random Forest).
+First, munging the data (drop na values, data type transformation, replace feature values and delete column). Then a feature selection using `randomForest` function is done, followed by a machine learning algorithms (SVM and Random Forest).
