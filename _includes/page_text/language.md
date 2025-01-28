@@ -8,7 +8,7 @@ Programming languages that I like and gather some knowledege about it.
 
 First, in the root, you can see two `.md` files, which contain information about [**GoLang**](https://github.com/salomaoalves/Languages/blob/main/GoLang.md) and [**Octave**](https://github.com/salomaoalves/Languages/blob/main/Octave.md). In both, I didn't gather to much knowledege about it, more the basic and first steps. The reason is that I find them interesting but not the main ones used in the data field, so I didn't want expend too much time on them *unfortunately time is finite*. So I decided to just take some look, gather some information, and, maybe, in the future, add more knowledge to them.
 
-The other file in the root is about the **Mojo** language *file `test.mojo`*. This is a new language, recently open-source, so there isn't too much about it, the *gather information process* is still in its early stages.
+The other file in the root is about the **Mojo** language *file `test.mojo`*. This is a new language, so there isn't too much about it, the *gather information process* is still in its early stages.
 
 There are two other folders, called `img`, which contains images that will be used in some file. And the `Human` folder, which contain markdown files for languages that human speak; for now, there is a [**English**](https://github.com/salomaoalves/Languages/blob/main/Human/english.md) and [**Español**](https://github.com/salomaoalves/Languages/blob/main/Human/espanol.md) file - they contain explanation of grammar, tricks words and more.
 
