@@ -14,7 +14,7 @@ tags:
 > I want to test Neo4J database, so I find a graph project; basically, if you click in the first hyperlink (has some rules that should be followed) of a Wikipedia page, and continuous doing that, you will, probably, ending in the Philosophy page or in a loop. 
 > So, I scrape many hyperlink/blue word and, with the help of Neo4J, store and query them.
 
-Click here to see the [Github Repo](https://github.com/salomaoalves/DataScience_Others/tree/main/Wiki1Link) with more technical information *has readme*.
+Click here to see the [Github Repo](https://github.com/salomaoalves/random/tree/main/Wiki1Link) with more technical information *has readme*.
 
 The project is a application, that can be started in **main.py**, to execute all this functionality; you can divide it in 5 parts: Costum Ingestion, Auto Ingestion, View Paths, Summary and Graph Display. So, from the main script, you are able to call the web scraping functions to gather data *Custom/Auto Ingestion*, get graph and nodes information *View Path and Summary* and also has a visualization about the graph *Graph Display*.
 
