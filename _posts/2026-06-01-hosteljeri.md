@@ -17,7 +17,7 @@ tags: [Automation, DataPipeline, LLM, API, Make, ZApi]
 
 ![Logical Flow Blueprint](/img/makeWppAuto-architecture-jerihostel.png)
 
-1. Multiples **Beds24 Auto Action** fires on differents events and sends a webhook with guest data (name, phone, dates, room, booking channel and others).
+1. Multiple **Beds24 Auto Actions** fire on different events and send a webhook with guest data (name, phone, dates, room, booking channel and others).
 2. In Make.com, the payload is first **normalized** (phone numbers cleaned via regex, dates converted to local time) and the **event type** is identified. A **Router** then sends each event down its own branch (new booking, check-in, check-out). Each branch looks up or updates the booking in the registry and sends the matching WhatsApp message. Keeping every event in a single scenario avoids duplicated logic and fits a Beds24 limit of one watch slot per property.
 3. Phone numbers are normalized with regex before being sent to the WhatsApp gateway.
 4. Each event is appended to the booking registry.

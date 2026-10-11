@@ -18,19 +18,19 @@ LexisNexis built its own big data platform, **HPCC Systems** (High-Performance C
 
 Both are programmed in **ECL** (Enterprise Control Language), a **declarative dataflow language**: you describe *what* transformation you want (joins, projections, deduplication, aggregations), and the compiler optimizes and parallelizes it into C++ across the cluster. The mindset is close to SQL or Spark DataFrames, applied to datasets with billions of rows.
 
-​```ecl
+```ecl
 // Example: deduplicate people by ID, keeping the most recent record
 people_sorted := SORT(people, person_id, -last_seen_date);
 latest        := DEDUP(people_sorted, person_id);
 OUTPUT(latest);
-​```
+```
 
 ## Phase 1 — Data Engineer, ETL team (6/2021–3/2023)
 
 I worked on an ETL pipeline running on Thor that ingests, cleans and standardizes raw data so it can be used by downstream products.
 
-- **Maintained and fixed** pipeline bugs in production: broken transformations, data-quality issues, failures on upstream data changes; and the data anonymization process
-- **Built new features**: new sources, fields, transformation rules and keys that will be used by roxie
+- **Maintained the pipeline and fixed** production bugs (broken transformations, data-quality issues, failures caused by upstream data changes), as well as the data anonymization process
+- **Built new features**: new sources, fields, transformation rules and keys used by Roxie
 - **Tested at three levels** to make sure changes didn't break the data consumed by other teams
 
 ## Phase 2 — Backend Developer, Roxie team (3/2023–1/2026)
@@ -41,7 +41,7 @@ On the Roxie team I worked at the point where all the data work becomes a produc
 - **Built internal data tools**: wrote custom Roxie queries to extract specific information of internal value (e.g. product usage, data coverage, quality checks) and turned the results into dashboards used by other teams to monitor and make decisions
 - **Built new products end-to-end**: developed the Roxie queries behind several data products for financial institutions and other enterprise clients, covering identity verification, fraud risk and credit risk. Each one combined multiple data sources, entity-linking results and analytics scores into a single real-time API response, from ECL implementation through testing to production
 - **Fixed production bugs** across this multi-team chain, which meant tracing a problem through data, linking, query and API layers
-- **Wrote tests** for queries and integrations using anonymizated/masked data
+- **Wrote tests** for queries and integrations using anonymized/masked data
 
 ## What I took from it
 
@@ -52,4 +52,4 @@ On the Roxie team I worked at the point where all the data work becomes a produc
 
 ## Stack
 
-HPCC Systems (Thor/Roxie) · ECL · ETL · BackEnd Dev · ESP|Linking · [SQL / Python / Git]
+HPCC Systems (Thor/Roxie) · ECL · ETL · Backend Dev · ESP|Linking · [SQL / Python / Git]
