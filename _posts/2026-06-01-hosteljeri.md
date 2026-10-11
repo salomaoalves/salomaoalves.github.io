@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automating a Hostel: Event-Driven Guest Messaging + AI FAQ Bot"
+title: "Automating Guest Messaging + AI FAQ Bot"
 subtitle: "Beds24, Make.com, ZApi and GPT-4o mini for a real hostel"
 date: 2026-07-17
 header-img: "img/raiz-kite-architecture.png"

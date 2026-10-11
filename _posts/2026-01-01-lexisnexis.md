@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Engineering at Scale at LexisNexis Risk Solutions"
+title: "Work at LexisNexis Risk Solutions"
 subtitle: "5 years building ETL pipelines and real-time data products on HPCC Systems"
 date: 2026-01-01
 header-img: "img/hpcc-architecture.png"
