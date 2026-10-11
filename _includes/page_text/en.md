@@ -1,3 +1,11 @@
+## Right now
+
+I'm a data engineer and backend developer with ~5 years at **LexisNexis Risk Solutions**, building ETL pipelines and real-time data products for credit risk, fraud and identity verification.
+
+In 2026 I'm taking a *planned sabbatical*: traveling, recharging and working on hands-on projects, like automating reservations and guest messaging for a hostel. My goal is to **return to the data field, focusing on **data engineering / analytics**.
+
+📫 Open to opportunities: [LinkedIn](https://www.linkedin.com/in/salomao-alves) · [GitHub](https://github.com/salomaoalves)
+
 # About myself
 
 Hello, my name is Salomão *sɐlʊmˈə̃w* or you can call me Salomon, works too. I'm a undergraduate Computer Science by the Universidade Federal de Uberlândia *UFU*, located in Uberlândia, Brazil, finished in 2021/July. My main passions are: sports *watch or practice*, watch movies and anime, read manga or sci-fi books, learn new things and live the journey we call life.
@@ -26,4 +34,6 @@ I finished college in 2021 and I already got a job. In 2022, I moved to São Pau
 
 The reason for doing that is because I want to meet more people, see how other societies work, the similarities and especially the differences (I love the latter, it attracts me. I like to be involved in things that are not normal for me – figuring them out, understanding them, and seeing them through my own eyes). Since I work remotely, that was possible, so I took everything I needed, put it in a backpack (I left important belongings with my parents) and started walking wherever the winds tell me I should and could go.
 
-Since I finished college, I worked over 4 years at the same full-time job, studying new topics (with Data Science in mind), getting to know more cultures, going out with friends, reconnecting with old ones, and making new ones – basically, enjoying the journey.
+After finishing college, I spent almost five years at LexisNexis: first on ETL pipelines, then building real-time data products on the Roxie team. At the end of 2025 I decided to step away for a while, to rest, travel slower and get back to what made me choose this field in the first place: **data**.
+
+So 2026 is my sabbatical year. I'm using it to recharge, to refresh my stack and to build real projects along the way. I'm coming back with clear intent: to work with data again.
