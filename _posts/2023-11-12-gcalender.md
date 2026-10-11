@@ -12,25 +12,25 @@ tags:
     - Plotly Offline
 ---
 
-> A Report and Web Dashboard of your life, at least how much you are willing to track in Google Calendar.
+> A Report and Web Dashboard of your life, or at least of as much of it as you are willing to track in Google Calendar.
 
-Click here to see the [Github Repo](https://github.com/salomaoalves/DataScience_Visualization/tree/main/GCalendar) with more technical information *has readme*.
+Click here to see the [Github Repo](https://github.com/salomaoalves/DataScience_Visualization/tree/main/GCalendar) with more technical information *it has a README*.
 
 
-This project ~~which can be divided in two parts~~ has the goal to show ~~in two different ways~~ the events from a **Google Calendar** account. 
+This project ~~which can be divided into two parts~~ aims to show ~~in two different ways~~ the events from a **Google Calendar** account.
 
-The Google Calendar events need to follow a pattern in relation to its colors. Since I was building it to use with my personal account, two patterns was created, or almost two. Look, for date older than 2022 ~~from 2018 to 2021, exactly~~ a random report was made, you can see more about in `Report|2018-21` and `report_specifYear.py` - this was the "first" part. The other part use the others files and folders, and the events are from 2022 onwards.
+The Google Calendar events need to follow a color pattern. Since I built it for my personal account, two patterns were created, or almost two. For dates before 2022 ~~from 2018 to 2021, to be exact~~ a one-off report was made; you can see more about it in `Report|2018-21` and `report_specifYear.py`. That was the "first" part. The other part uses the other files and folders, and covers events from 2022 onwards.
 
-In short, the code useful for you to use in your personal Google Calendar is every file and folder, except `Report|2018-21` and `report_specifYear.py` *and one more*. IMPORTANT remember to see the colors patterns for the events, they are extremely important.
+In short, the code you can use with your own Google Calendar is every file and folder except `Report|2018-21` and `report_specifYear.py` *and one more*. IMPORTANT: remember to check the color patterns for the events; they are extremely important.
 
 You can visualize your events in two ways, with a **Report** or a **Dashboard**.
 
-All the code was develop using Python, the plots using Plotly and to get the data the Google Calendar API.
+All the code was developed in Python, the plots with Plotly, and the data comes from the Google Calendar API.
 
 ## Report
-To create a report is called the `get_report()` function from `report.py`, which will take the data *(from `modConstants`)* and start building the report. The function is like a script, where in each **step/code block** a part of the report is done and concatenate with the one before.
+To create a report, call the `get_report()` function from `report.py`, which takes the data *(from `modConstants`)* and starts building the report. The function works like a script: each **step/code block** builds a part of the report and appends it to the previous ones.
 
-During each **code block**, some *statistics* or *metric* - a *aggregation* is extract and put it in the report structure. The structure can be for a txt file or for html file, with the last one, is also possible to use a email function (in the same file) to send the report via email.
+In each **code block**, some *statistic* or *metric* (an *aggregation*) is extracted and added to the report structure. The report can be a txt or an HTML file; with HTML, you can also use an email function (in the same file) to send the report by email.
 
 <figure style="margin: 0;">
   <div style="display: flex; gap: 12px; flex-wrap: wrap;">
@@ -41,13 +41,13 @@ During each **code block**, some *statistics* or *metric* - a *aggregation* is e
 </figure>
 
 ## Web Dashboard
-To a dashboard run the `dashboard.py` file, which will take the data *(from `modConstants`)* and start building the dash, by preparing the data, create initial/general graphics and build the web pages (has a main one and subjacents for the events types) - also the folder `Visu` has functions used for this file.
+To create a dashboard, run the `dashboard.py` file, which takes the data *(from `modConstants`)* and builds the dashboard: it prepares the data, creates the initial/general charts and builds the web pages (a main one plus one for each event type). The `Visu` folder has the functions used by this file.
 
-The dashboard is build in html files (so can be send by email or can be uploaded to a server) - the graphics are build using Plotly and then transformed into html code with Plotly Offline. This transformation is made during the build of each graphic (bar, table, lines), in `Visu/build.py`; in the end of each function, the plot is export to a given html file.
+The dashboard is built as HTML files (so it can be sent by email or uploaded to a server). The charts are built with Plotly and then converted into HTML code with Plotly Offline. This conversion happens as each chart (bar, table, line) is built, in `Visu/build.py`; at the end of each function, the plot is exported to a given HTML file.
 
-In `Visu/create_html.py` there are the functions responsible to build the html code - the dashboards webpages with the graphics in right place - and put the graphic html code (will read from the exported file before) in the correct format.  
+`Visu/create_html.py` has the functions that build the HTML code of the dashboard web pages, placing each chart's HTML code (read from the previously exported file) in the right place and format.
 
-The others files in `Visu` is used to create the graphics that will be used for each webpage.
+The other files in `Visu` create the charts used on each web page.
 
 <figure style="margin: 0;">
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
@@ -59,4 +59,4 @@ The others files in `Visu` is used to create the graphics that will be used for 
   <figcaption style="text-align: center; font-size: 0.9em; margin-top: 6px;">Google Calendar Web Dashboard - fake data</figcaption>
 </figure>
 
-*Images are AI made*
+*Images are AI-generated*

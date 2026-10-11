@@ -11,12 +11,12 @@ tags:
     - WebScraping
 ---
 
-> I want to test Neo4J database, so I find a graph project; basically, if you click in the first hyperlink (has some rules that should be followed) of a Wikipedia page, and continue doing that, you will, probably, end up in the Philosophy page or in a loop. 
-> So, I scrape many hyperlink/blue word and, with the help of Neo4J, store and query them.
+> I wanted to test the Neo4J database, so I found a graph project. Basically, if you click on the first link of a Wikipedia page (following a few rules) and keep doing that, you will probably end up on the Philosophy page or in a loop.
+> So I scraped many links (the blue words) and, with the help of Neo4J, stored and queried them.
 
-Click here to see the [Github Repo](https://github.com/salomaoalves/random/tree/main/Wiki1Link) with more technical information *has readme*.
+Click here to see the [Github Repo](https://github.com/salomaoalves/random/tree/main/Wiki1Link) with more technical information *it has a README*.
 
-The project is a application, that can be started in **main.py**, to execute all this functionality; you can divide it in 5 parts: Custom Ingestion, Auto Ingestion, View Paths, Summary and Graph Display. So, from the main script, you are able to call the web scraping functions to gather data *Custom/Auto Ingestion*, get graph and nodes information *View Path and Summary* and also has a visualization about the graph *Graph Display*.
+The project is an application, started from **main.py**, that runs all of this functionality. It can be divided into 5 parts: Custom Ingestion, Auto Ingestion, View Paths, Summary and Graph Display. From the main script, you can call the web scraping functions to gather data *Custom/Auto Ingestion*, get graph and node information *View Paths and Summary*, and view the graph *Graph Display*.
 
 <figure style="margin: 0;">
   <img src="/img/wiki1link-home.png" alt="Wikipedia first-link graph" style="width: 100%;">
@@ -26,17 +26,17 @@ The project is a application, that can be started in **main.py**, to execute all
 
 ## Tools
 ### Web Scraping
-Help to gather the data from Wikipedia pages. First, in **ETL/connection.py**, use **Selenium** lib to help connect with a browser (can choose between Firefox and Chrome) and get the page source - the html of the wikipedia page; if an error connection happens 3 times, save it into a csv file.
+Used to gather the data from Wikipedia pages. First, **ETL/connection.py** uses the **Selenium** library to connect to a browser (Firefox or Chrome) and get the page source, the HTML of the Wikipedia page; if a connection error happens 3 times, the page is saved to a CSV file.
 
-**ETL/extractWords.py** and **ETL/autoWords.py** are responsible to get the wiki source page (call *connection.py funcs*) and extract the words from the html. To do the last one, I use **BeautifulSoup** lib to extract blocks of words / paragraphs (use funcs like *find_all()* and *find()*) and **re** libs *Regular Expression* to query into the paragraphs, to apply the rules and extract the correct word. Actually, *autoWords.main()* will only collect different words, where each one of them will be passed to *extractWords.main()*, where the graph starting from this words is build.
+**ETL/extractWords.py** and **ETL/autoWords.py** are responsible for getting the wiki page source (by calling the *connection.py* functions) and extracting the words from the HTML. For that, I use the **BeautifulSoup** library to extract blocks of words/paragraphs (with functions like *find_all()* and *find()*) and the **re** library *Regular Expressions* to search the paragraphs, apply the rules and extract the correct word. In fact, *autoWords.main()* only collects different starting words, each of which is passed to *extractWords.main()*, which builds the graph starting from that word.
 
 <figure style="margin: 0;">
   <img src="/img/wiki1link-webscraping.png" alt="Wikipedia first-link graph" style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 0.9em; margin-top: 6px;">One of the web scraping process</figcaption>
+  <figcaption style="text-align: center; font-size: 0.9em; margin-top: 6px;">One of the web scraping processes</figcaption>
 </figure>
 
 ### Neo4J / Cypher
-You can find all functions related to it in **ETL/neo4jFunc.py**. There, has functions that will, using Cypher language, get nodes, paths and loops, insert pair of nodes to build the graph, and delete nodes. To work, you gonna have two functions for each action, the main one, which will create the session, and an auxiliary one, where the cypher language is used to work with the data.
+All the related functions are in **ETL/neo4jFunc.py**. They use the Cypher language to get nodes, paths and loops, insert pairs of nodes to build the graph, and delete nodes. There are two functions for each action: the main one, which creates the session, and an auxiliary one, where Cypher is used to work with the data.
 
 <figure style="margin: 0;">
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px;">
@@ -61,21 +61,21 @@ You can find all functions related to it in **ETL/neo4jFunc.py**. There, has fun
 
 
 ## Structure
-The project is composed with the following folder and files:
- - **ETL** *folder* contain the python code responsible to scrape the data from wikipedia and the Neo4J functions to work with the data
- - **common** *python file* with common and different functions used during many files 
- - **createFakeData** *python script* responsible to create and store the fake data used to test
- - **graph_visu** *python file* with functions that will display the graph - use lib **NetworkX** to help 
- - **ingestion** *python file* responsible to collect the data and build/ingest the graph, always starting with a word. Has two main functions; (1) `auto_ingestion()`, start with random words, and (2) `costum_ingestion()`, start with an input word
- - **main** main *python script*, will create a prompt in terminal with better layout, in there you will have a short description and explanation about the project and how it works and then you can start it - control the project
- - **path** *python file* with functions related to path info, that is, given two words, show the path between them, to the word Philosophy, if the word belong to a loop and others
- - **summary** *python file* has the functions responsible to generate a summary - graph degrees, loops, predecessor/successor nodes, path between nodes. With the help of Cypher, I was able to read the data and manipulate it - make filters, aggregations and so on
+The project is made up of the following folders and files:
+ - **ETL** *folder* contains the Python code responsible for scraping the data from Wikipedia and the Neo4J functions that work with the data
+ - **common** *Python file* with common functions used across many files
+ - **createFakeData** *Python script* responsible for creating and storing the fake data used for testing
+ - **graph_visu** *Python file* with functions that display the graph, using the **NetworkX** library
+ - **ingestion** *Python file* responsible for collecting the data and building/ingesting the graph, always starting from a word. It has two main functions: (1) `auto_ingestion()`, which starts with random words, and (2) `costum_ingestion()`, which starts with a word you type in
+ - **main** the main *Python script*: it creates a nicer prompt in the terminal with a short description of the project and how it works, and from there you can start and control the project
+ - **path** *Python file* with functions related to paths: given two words, show the path between them, the path to the word Philosophy, whether a word belongs to a loop, and more
+ - **summary** *Python file* with the functions that generate a summary: graph degrees, loops, predecessor/successor nodes and paths between nodes. With Cypher, I was able to read and manipulate the data (filters, aggregations and so on)
 
 <figure style="margin: 0;">
   <img src="/img/wiki1link-summary.png" alt="Wikipedia first-link graph" style="width: 100%;">
   <figcaption style="text-align: center; font-size: 0.9em; margin-top: 6px;">Summary information</figcaption>
 </figure>
 
-All the files has comments, so you are able to understand how they works - but in the repo there is a readme with more information.
+All the files have comments, so you can understand how they work, and the repo has a README with more information.
 
-*Images are AI made*
+*Images are AI-generated*
