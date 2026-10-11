@@ -7,7 +7,7 @@ header-img: "img/raiz-kite-architecture.png"
 tags: [Automation, DataPipeline, LLM, API, Make, ZApi]
 ---
 
-> A small hostel in Jericoacoara (Brazil) was sending every check-in and check-out message by hand on WhatsApp and answering the same guest questions dozens of times a day. During an on-site work-trade, I designed and shipped an event-driven automation, then built an AI FAQ bot on top of it.
+> A hostel in Jericoacoara (Brazil) was sending every check-in and check-out message by hand on WhatsApp and answering the same guest questions dozens of times a day. During an on-site work-trade, I designed and shipped an event-driven automation, then built an AI FAQ bot on top of it.
 
 
 
