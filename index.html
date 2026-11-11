@@ -1,7 +1,11 @@
 ---
 layout: page
-description: ""
+headline: "Data Engineer | Software Engineer (Backend)"
 ---
+
+{% unless paginator.previous_page %}
+{% include home-hero.html %}
+{% endunless %}
 
 {% for post in paginator.posts %}
 <div class="post-preview">

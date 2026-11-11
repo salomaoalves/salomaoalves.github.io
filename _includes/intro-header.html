@@ -105,7 +105,7 @@
         <div class="site-heading">
         {% endif %}
           <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-          <span class="subheading">{{ page.description }}</span>
+          <span class="subheading">{% if page.headline %}{{ page.headline }}{% else %}{{ page.description }}{% endif %}</span>
         </div>
       </div>
     </div>
