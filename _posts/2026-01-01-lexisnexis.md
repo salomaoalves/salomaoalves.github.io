@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Work at LexisNexis Risk Solutions"
-subtitle: "5 years building ETL pipelines and real-time data products on HPCC Systems"
+subtitle: "4.5 years building ETL pipelines and real-time data products on HPCC Systems"
 date: 2026-01-01
 header-img: "img/hpcc-architecture.png"
 tags: [DataEngineering, ETL, HPCC, ECL, BigData, Backend]
 ---
 
-> For about five years I worked at **LexisNexis Risk Solutions**, a company whose products in credit risk, fraud prevention and identity verification depend on processing billions of public and proprietary records. I spent almost two years as a **Data Engineer** on an ETL pipeline, then nearly three as a **Backend Developer** on the **Roxie** team, delivering data products in real time.
+> For 4.5 years (June 2021 to December 2025) I worked at **LexisNexis Risk Solutions**, a company whose products in credit risk, fraud prevention and identity verification depend on processing billions of public and proprietary records. I spent almost two years as a **Data Engineer** on an ETL pipeline, then nearly three as a **Software Engineer (Backend)** on the **Roxie** team, delivering data products in real time.
 
 ## The platform: HPCC Systems and ECL
 
@@ -25,7 +25,7 @@ latest        := DEDUP(people_sorted, person_id);
 OUTPUT(latest);
 ```
 
-## Phase 1 — Data Engineer, ETL team (6/2021–3/2023)
+## Phase 1 — Data Engineer, ETL team (Jun 2021 – Mar 2023)
 
 I worked on an ETL pipeline running on Thor that ingests, cleans and standardizes raw data so it can be used by downstream products.
 
@@ -33,7 +33,7 @@ I worked on an ETL pipeline running on Thor that ingests, cleans and standardize
 - **Built new features**: new sources, fields, transformation rules and keys used by Roxie
 - **Tested at three levels** to make sure changes didn't break the data consumed by other teams
 
-## Phase 2 — Backend Developer, Roxie team (3/2023–1/2026)
+## Phase 2 — Software Engineer (Backend), Roxie team (Apr 2023 – Dec 2025)
 
 On the Roxie team I worked at the point where all the data work becomes a product: the queries customers call in real time.
 

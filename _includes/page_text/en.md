@@ -1,6 +1,6 @@
 ## Right now
 
-I'm a data engineer and backend developer with ~5 years at **LexisNexis Risk Solutions**, building ETL pipelines and real-time data products for credit risk, fraud and identity verification.
+I'm a data engineer and backend software engineer with 4.5 years at **LexisNexis Risk Solutions**, building ETL pipelines and real-time data products for credit risk, fraud and identity verification.
 
 In 2026 I'm taking a *planned sabbatical*: traveling, recharging and working on hands-on projects, like automating reservations and guest messaging for a hostel. My goal is to **return to the data field**, focusing on **data engineering / analytics**.
 
@@ -12,7 +12,7 @@ Hello, my name is Salomao Alves. I have a bachelor's degree in Computer Science 
 
 I've worked a little in every area of data science. First, as an intern at a freelance company, I worked with machine learning algorithms, NLP, dashboards, exploratory analysis, creating and maintaining ETL pipelines, and data cleaning (using Python, AWS and GCP). That lasted about 5 or 6 months.
 
-Then I graduated and switched companies. For one and a half years, I maintained and built new features for ETL pipelines; later, in the same company, I was transferred to the team that creates product queries, a more development-focused job, all of it done in the ECL language. The company works in risk solutions, creating products like Fraud Score and Identity Verification. It's called LexisNexis.
+Then I graduated and switched companies. For almost two years (Jun 2021 – Mar 2023), I maintained and built new features for ETL pipelines; later, in the same company, I was transferred to the team that creates product queries, a more development-focused job, all of it done in the ECL language. The company works in risk solutions, creating products like Fraud Score and Identity Verification. It's called LexisNexis.
 
 Alongside this last job, I focused on gaining knowledge in statistics and mathematics (I took some courses, such as the ones on the Data Science Academy portal, and read several blogs and books). I also improved my knowledge of computing by learning new programming languages, picking up new techniques in languages I already knew and studying some important concepts. You can find more about it in [**Knowledge**](https://salomaoalves.github.io/knowledge/) or [**Computer Languages**](https://salomaoalves.github.io/prog_lang/).
 
@@ -34,6 +34,6 @@ I finished college in 2021 and already had a job. In 2022, I moved to São Paulo
 
 I did that because I want to meet more people and see how other societies work, their similarities and especially their differences (I love the latter; it attracts me. I like to get involved in things that are not normal for me: figuring them out, understanding them and seeing them through my own eyes). Since I was working remotely, that was possible, so I put everything I needed in a backpack (I left my important belongings with my parents) and started going wherever the winds told me I should and could go.
 
-After finishing college, I spent almost five years at LexisNexis: first on ETL pipelines, then building real-time data products on the Roxie team. At the end of 2025 I decided to step away for a while, to rest, travel more slowly and get back to what made me choose this field in the first place: **data**.
+After finishing college, I spent four and a half years at LexisNexis: first on ETL pipelines, then building real-time data products on the Roxie team. At the end of 2025 I decided to step away for a while, to rest, travel more slowly and get back to what made me choose this field in the first place: **data**.
 
 So 2026 is my sabbatical year. I'm using it to recharge, refresh my stack and build real projects along the way. I'm coming back with a clear intent: to work with data again.
