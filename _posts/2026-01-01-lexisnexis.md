@@ -9,6 +9,8 @@ tags: [DataEngineering, ETL, HPCC, ECL, BigData, Backend]
 
 > For 4.5 years (June 2021 to December 2025) I worked at **LexisNexis Risk Solutions**, a company whose products in credit risk, fraud prevention and identity verification depend on processing billions of public and proprietary records. I spent almost two years as a **Data Engineer** on an ETL pipeline, then nearly three as a **Software Engineer (Backend)** on the **Roxie** team, delivering data products in real time.
 
+<!-- TODO(Salomao): replace "billions of public and proprietary records" with a concrete, shareable figure (e.g. records or data volume processed by the pipelines you worked on). -->
+
 ## The platform: HPCC Systems and ECL
 
 LexisNexis built its own big data platform, **HPCC Systems** (High-Performance Computing Cluster), and open-sourced it in 2011. It predates Spark and solves the same problem in its own way. It has two main components:
@@ -16,7 +18,12 @@ LexisNexis built its own big data platform, **HPCC Systems** (High-Performance C
 - **Thor**: the batch engine. It runs massive ETL/Linking jobs (ingestion, cleaning, transformation, entity linking) across a cluster. It plays a role similar to Hadoop/Spark.
 - **Roxie**: the real-time query engine. It serves pre-built, indexed data with sub-second latency to thousands of concurrent requests. It's what customer-facing products query.
 
+<!-- TODO(Salomao): replace "sub-second latency" with a concrete latency figure (e.g. p95/p99 in ms) for the queries you worked on. -->
+<!-- TODO(Salomao): replace "thousands of concurrent requests" with a concrete throughput figure (e.g. requests per second or per day). -->
+
 Both are programmed in **ECL** (Enterprise Control Language), a **declarative dataflow language**: you describe *what* transformation you want (joins, projections, deduplication, aggregations), and the compiler optimizes and parallelizes it into C++ across the cluster. The mindset is close to SQL or Spark DataFrames, applied to datasets with billions of rows.
+
+<!-- TODO(Salomao): replace "billions of rows" with the actual size of the largest datasets you worked with (rows and/or TB). -->
 
 ```ecl
 // Example: deduplicate people by ID, keeping the most recent record
