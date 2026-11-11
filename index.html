@@ -8,6 +8,7 @@ headline: "Data Engineer | Software Engineer (Backend)"
 {% endunless %}
 
 {% for post in paginator.posts %}
+{% unless post.hidden %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -31,6 +32,7 @@ headline: "Data Engineer | Software Engineer (Backend)"
     </p> -->
 </div>
 <hr>
+{% endunless %}
 {% endfor %}
 
 <!-- Pager -->
