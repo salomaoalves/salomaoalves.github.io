@@ -3,7 +3,7 @@ layout: post
 title: "Automating Guest Messaging + AI FAQ Bot"
 subtitle: "Beds24, Make.com, Z-API and GPT-4o mini for a real hostel"
 date: 2026-07-17
-header-img: "img/raiz-kite-architecture.png"
+header-style: text   # img/raiz-kite-architecture.png does not exist in the repo; add the image and switch back to `header-img` if wanted
 tags: [Automation, DataPipeline, LLM, API, Make, Z-API]
 ---
 

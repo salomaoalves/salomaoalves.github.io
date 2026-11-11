@@ -3,7 +3,7 @@ layout: post
 title: "Work at LexisNexis Risk Solutions"
 subtitle: "4.5 years building ETL pipelines and real-time data products on HPCC Systems"
 date: 2026-01-01
-header-img: "img/hpcc-architecture.png"
+header-style: text   # img/hpcc-architecture.png does not exist in the repo; add the image and switch back to `header-img` if wanted
 tags: [DataEngineering, ETL, HPCC, ECL, BigData, Backend]
 ---
 
