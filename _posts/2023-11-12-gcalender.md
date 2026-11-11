@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "Google Calendar"
-author:       "Salomon"
+author:       "Salomao Alves"
 header-style: text
 catalog:      true
 tags:

@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "Explore & Analysis"
-author:       "Salomon"
+author:       "Salomao Alves"
 header-style: text
 catalog:      true
 tags:

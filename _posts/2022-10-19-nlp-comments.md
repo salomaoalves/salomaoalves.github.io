@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "NLP Social Media Comments"
-author:       "Salomon"
+author:       "Salomao Alves"
 header-style: text
 catalog:      true
 tags:

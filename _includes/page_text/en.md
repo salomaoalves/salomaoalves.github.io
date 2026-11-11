@@ -8,7 +8,7 @@ In 2026 I'm taking a *planned sabbatical*: traveling, recharging and working on 
 
 # About myself
 
-Hello, my name is Salomão *sɐlʊmˈə̃w*, but you can call me Salomon, that works too. I have a bachelor's degree in Computer Science from the Universidade Federal de Uberlândia *UFU*, in Uberlândia, Brazil, which I finished in July 2021. My main passions are: sports *watching or practicing*, watching movies and anime, reading manga or sci-fi books, learning new things and living the journey we call life.
+Hello, my name is Salomao Alves. I have a bachelor's degree in Computer Science from the Universidade Federal de Uberlândia *UFU*, in Uberlândia, Brazil, which I finished in July 2021. My main passions are: sports *watching or practicing*, watching movies and anime, reading manga or sci-fi books, learning new things and living the journey we call life.
 
 I've worked a little in every area of data science. First, as an intern at a freelance company, I worked with machine learning algorithms, NLP, dashboards, exploratory analysis, creating and maintaining ETL pipelines, and data cleaning (using Python, AWS and GCP). That lasted about 5 or 6 months.
 
