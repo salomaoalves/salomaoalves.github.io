@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Automating Guest Messaging + AI FAQ Bot"
-subtitle: "Beds24, Make.com, ZApi and GPT-4o mini for a real hostel"
+subtitle: "Beds24, Make.com, Z-API and GPT-4o mini for a real hostel"
 date: 2026-07-17
-header-img: "img/raiz-kite-architecture.png"
-tags: [Automation, DataPipeline, LLM, API, Make, ZApi]
+header-style: text   # img/raiz-kite-architecture.png does not exist in the repo; add the image and switch back to `header-img` if wanted
+tags: [Automation, DataPipeline, LLM, API, Make, Z-API]
 ---
 
 > A hostel in Jericoacoara (Brazil) was sending every check-in and check-out message by hand on WhatsApp and answering the same guest questions dozens of times a day. During an on-site work-trade, I designed and shipped an event-driven automation, then built an AI FAQ bot on top of it.
@@ -29,13 +29,22 @@ The registry works as the hostel's **single source of truth**: each booking is c
 - **Missing contacts**: some OTAs don't share guest phone numbers. These bookings are flagged instead of failing silently.
 - **Idempotency**: check-in updates match on booking ID, so re-sent webhooks don't create duplicates.
 
+<!-- TODO(Salomao): fill in the measured numbers below, then remove this comment wrapper so the "Results" section is published. It is kept commented out so no placeholder shows on the live page.
+
+### Results
+
+- **Messages automated per month:** TODO (number of WhatsApp messages sent by the automation per month)
+- **Hours saved per week:** TODO (staff hours per week no longer spent on manual messaging)
+- **Bookings processed:** TODO (number of bookings handled by the pipeline, and over what period)
+-->
+
 ## Part 2 — AI FAQ bot (in progress)
 
 **Event flow:** Incoming WhatsApp messages → Make.com → GPT-4o mini (with the hostel FAQ as system prompt) → reply.
 
 ![Logical Flow Blueprint](/img/makeFaqAI-architecture-jerihostel.png)
 
-- A `fromMe = false -- from_guest` filter prevents infinite reply loops.
+- A `fromMe = false` filter (only messages sent by guests) prevents infinite reply loops.
 - Answers are scoped to the FAQ: prices, kite lessons, transfers, house rules.
 
 ### Model cost analysis
@@ -47,7 +56,7 @@ The registry works as the hostel's **single source of truth**: each booking is c
 
 *Typical FAQ exchange: ~250 input + ~60 output tokens.
 
-For short, scoped answers, the cheaper model was good enough, at roughly 8× lower cost.
+For short, scoped answers, the cheaper model was good enough, at ~7.5× lower cost.
 
 ### WhatsApp provider evaluation
 

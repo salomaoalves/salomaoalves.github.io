@@ -1,9 +1,14 @@
 ---
 layout: page
-description: ""
+headline: "Data Engineer | Software Engineer (Backend)"
 ---
 
+{% unless paginator.previous_page %}
+{% include home-hero.html %}
+{% endunless %}
+
 {% for post in paginator.posts %}
+{% unless post.hidden %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -27,6 +32,7 @@ description: ""
     </p> -->
 </div>
 <hr>
+{% endunless %}
 {% endfor %}
 
 <!-- Pager -->

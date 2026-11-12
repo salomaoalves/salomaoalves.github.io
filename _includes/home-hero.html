@@ -1,0 +1,47 @@
+{% comment %}
+    Home page hero: one-line summary and primary contact links.
+    Name and headline are rendered by intro-header.html (site.title + page.headline).
+{% endcomment %}
+<style>
+    .home-hero { margin-bottom: 30px; }
+    @media (max-width: 767px) { .home-hero { margin-top: 20px; } }
+    .home-hero .home-hero-summary { font-size: 18px; line-height: 1.6; margin: 0 0 20px; }
+    .home-hero .home-hero-links { margin: 0; padding: 0; list-style: none; }
+    .home-hero .home-hero-links li { display: inline-block; margin: 0 8px 10px 0; }
+    .home-hero .home-hero-links .btn { padding: 10px 18px; }
+    .home-hero .home-hero-links .btn-primary-cta { background-color: #0085a1; border-color: #0085a1; color: #fff; }
+    .home-hero .home-hero-links .btn-primary-cta:hover,
+    .home-hero .home-hero-links .btn-primary-cta:focus { background-color: #006a81; border-color: #006a81; color: #fff; }
+    .home-section-title { margin: 0 0 10px; font-size: 14px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: #808080; }
+</style>
+<section class="home-hero">
+    <p class="home-hero-summary">
+        4.5 years at LexisNexis Risk Solutions building large-scale ETL pipelines and real-time data APIs for
+        identity verification, fraud and credit risk. Based in Brazil (UTC-3), open to remote data roles: engineering, analytics and data science.
+    </p>
+    <ul class="home-hero-links">
+        <!-- TODO(Salomao): add the CV file at assets/Salomao_Alves_Resume.pdf, this link 404s until it exists. -->
+        <li>
+            <a class="btn btn-default btn-primary-cta" href="{{ '/assets/Salomao_Alves_Resume.pdf' | prepend: site.baseurl }}" download>
+                <i class="fa fa-download" aria-hidden="true"></i> Download CV
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-default" href="mailto:{{ site.email }}">
+                <i class="fa fa-envelope" aria-hidden="true"></i> Email
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-default" target="_blank" rel="noopener" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-default" target="_blank" rel="noopener" href="https://github.com/{{ site.github_username }}">
+                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+            </a>
+        </li>
+    </ul>
+</section>
+<hr>
+<h2 class="home-section-title">Projects</h2>

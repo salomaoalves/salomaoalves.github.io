@@ -18,9 +18,19 @@
     </a>
   </li>
   {% endif %}
+  {% if site.email %}
+  <li>
+    <a href="mailto:{{ site.email }}" title="Email" aria-label="Email">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
   {% if site.linkedin_username %}
   <li>
-    <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" aria-label="LinkedIn">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -30,7 +40,7 @@
   {% endif %}
   {% if site.github_username %}
   <li>
-    <a target="_blank" href="https://github.com/{{ site.github_username }}">
+    <a target="_blank" rel="noopener" href="https://github.com/{{ site.github_username }}" title="GitHub" aria-label="GitHub">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -40,20 +50,10 @@
   {% endif %}
   {% if site.whatsapp_username %}
   <li>
-    <a target="_blank" href="https://wa.me/{{ site.whatsapp_username }}">
+    <a target="_blank" rel="noopener" href="https://wa.me/{{ site.whatsapp_username }}" title="WhatsApp" aria-label="WhatsApp">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
-      </span>
-    </a>
-  </li>
-  {% endif %}
-  {% if site.instagram_username %}
-  <li>
-    <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username }}">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
       </span>
     </a>
   </li>

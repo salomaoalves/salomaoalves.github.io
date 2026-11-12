@@ -28,20 +28,39 @@ layout: default
 				{{ content }}
 
                 <hr style="visibility: hidden;">
+                {% comment %}
+                    Pager follows the post dates, same order as the home page (newest first),
+                    and skips posts flagged with `hidden: true`.
+                {% endcomment %}
+                {% assign visible_posts = site.posts | where_exp: "p", "p.hidden != true" %}
+                {% assign newer_post = nil %}
+                {% assign older_post = nil %}
+                {% for p in visible_posts %}
+                    {% if p.url == page.url %}
+                        {% unless forloop.first %}
+                            {% assign newer_index = forloop.index0 | minus: 1 %}
+                            {% assign newer_post = visible_posts[newer_index] %}
+                        {% endunless %}
+                        {% unless forloop.last %}
+                            {% assign older_index = forloop.index0 | plus: 1 %}
+                            {% assign older_post = visible_posts[older_index] %}
+                        {% endunless %}
+                    {% endif %}
+                {% endfor %}
                 <ul class="pager">
-                    {% if page.previous.url %}
+                    {% if newer_post %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
-                        Previous<br>
-                        <span>{{page.previous.title}}</span>
+                        <a href="{{ newer_post.url | prepend: site.baseurl }}" data-toggle="tooltip" data-placement="top" title="{{ newer_post.title }}">
+                        &larr; Newer project<br>
+                        <span>{{ newer_post.title }}</span>
                         </a>
                     </li>
                     {% endif %}
-                    {% if page.next.url %}
+                    {% if older_post %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
-                        Next<br>
-                        <span>{{page.next.title}}</span>
+                        <a href="{{ older_post.url | prepend: site.baseurl }}" data-toggle="tooltip" data-placement="top" title="{{ older_post.title }}">
+                        Older project &rarr;<br>
+                        <span>{{ older_post.title }}</span>
                         </a>
                     </li>
                     {% endif %}
@@ -65,7 +84,7 @@ layout: default
                 <div class="side-catalog">
                     <hr class="hidden-sm hidden-xs">
                     <h5>
-                        <a class="catalog-toggle" href="#">CATALOG</a>
+                        <a class="catalog-toggle" href="#">CONTENTS</a>
                     </h5>
                     <ul class="catalog-body"></ul>
                 </div>
@@ -80,9 +99,6 @@ layout: default
 
                 <!-- Featured Tags -->
                 {% include featured-tags.html bottom=true %}
-
-                <!-- Friends Blog -->
-                {% include friends.html %}
             </div>
         </div>
     </div>

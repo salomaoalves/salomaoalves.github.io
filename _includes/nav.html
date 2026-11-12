@@ -31,8 +31,9 @@
                         {% endif %}
                         {% endfor %}
                         <li class="search-icon">
-                            <a href="javascript:void(0)">
-                                <i class="fa fa-search"></i>
+                            {% comment %} JS opens the search overlay; without JS the link goes to the tag archive. {% endcomment %}
+                            <a href="{{ site.baseurl }}/archive/" title="Search" aria-label="Search">
+                                <i class="fa fa-search" aria-hidden="true"></i>
                             </a>
                         </li>
                     </ul>

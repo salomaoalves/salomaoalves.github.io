@@ -1,16 +1,19 @@
+## Spoken languages
 
-Programming languages that I like and have gathered some knowledge about.
-[Github Repo link](https://github.com/salomaoalves/Languages)
+- **Portuguese**: native
+- **English**: professional working proficiency
 
-*The folders have more detailed information about a language than the single files.*\
-*Some files have more information than others; it depends on the goal of the study.*\
-*Remember, this is a work in progress, so some things are still being developed, and the goal is to never finish: always add and gather more knowledge.*
+<!-- TODO(Salomao): add Spanish here with your level if you want it listed (the Languages repo has Spanish study notes, but the site does not state a level). -->
 
-First, in the root, you can see two `.md` files, which contain information about [**GoLang**](https://github.com/salomaoalves/Languages/blob/main/GoLang.md) and [**Octave**](https://github.com/salomaoalves/Languages/blob/main/Octave.md). In both, I didn't gather much knowledge, mostly the basics and first steps. The reason is that I find them interesting, but they are not the main ones used in the data field, so I didn't want to spend too much time on them *unfortunately, time is finite*. So I decided to just take a look, gather some information and, maybe in the future, add more knowledge to them.
+## Programming languages
 
-The other file in the root is about the **Mojo** language *file `test.mojo`*. This is a new language, and the *information gathering process* is still in its early stages.
+At work I have mostly used **ECL**, **Python** and **SQL**. The rest of this page describes my [Languages repo on GitHub](https://github.com/salomaoalves/Languages), where I keep study notes on the programming languages I have learned or explored.
 
-There are also two other folders: `img`, which contains images used in some files, and `Human`, which contains markdown files about languages that humans speak. For now, there is an [**English**](https://github.com/salomaoalves/Languages/blob/main/Human/english.md) and an [**Español**](https://github.com/salomaoalves/Languages/blob/main/Human/espanol.md) file; they contain explanations of grammar, tricky words and more.
+The repo is a work in progress, and some files go deeper than others, depending on the goal of the study. Languages with their own folder (Julia, Python and R) have the most detailed notes.
+
+In the root there are two `.md` files with the basics of [**GoLang**](https://github.com/salomaoalves/Languages/blob/main/GoLang.md) and [**Octave**](https://github.com/salomaoalves/Languages/blob/main/Octave.md). I find both interesting, but they are not widely used in the data field, so I only covered the first steps. There is also a `test.mojo` file with early notes on **Mojo**, a newer language.
+
+Besides the language folders, `img` holds the images used in some files, and `Human` has notes on spoken languages: grammar and tricky words in [**English**](https://github.com/salomaoalves/Languages/blob/main/Human/english.md) and [**Spanish**](https://github.com/salomaoalves/Languages/blob/main/Human/espanol.md).
 
 ## [Julia](https://github.com/salomaoalves/Languages/tree/main/Julia)
  > A high-level, general-purpose dynamic programming language, most commonly used for numerical analysis and computational science
