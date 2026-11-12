@@ -8,9 +8,9 @@ I'm based in Brazil (UTC-3) and open to **remote data roles**: data engineering,
 
 ## Experience
 
-### LexisNexis Risk Solutions · Jun 2021 – Dec 2025
+### LexisNexis Risk Solutions · Jun 2021 – Jan 2026
 
-**Software Engineer (Backend), Roxie team** · Apr 2023 – Dec 2025
+**Software Engineer (Backend), Roxie team** · Apr 2023 – Jan 2026
 
 - Built the real-time queries behind data products for identity verification, fraud risk and credit risk, written in ECL on HPCC Systems.
 - Connected the work of the data, entity-linking, analytics and API teams into a single product, and fixed production issues across that chain.
@@ -54,7 +54,7 @@ You can find my study notes in [**Knowledge**]({{ '/knowledge/' | prepend: site.
 
 ## What I'm doing now
 
-After leaving LexisNexis at the end of 2025, I'm taking a planned sabbatical in 2026: traveling, studying and building hands-on projects, such as [automating reservations and guest messaging for a hostel]({% post_url 2026-06-01-hosteljeri %}).
+After leaving LexisNexis in January 2026, I'm taking a planned sabbatical in 2026: traveling, studying and building hands-on projects, such as [automating reservations and guest messaging for a hostel]({% post_url 2026-06-01-hosteljeri %}).
 
 I'm now returning to the data field. Alongside my engineering work I have kept studying statistics, mathematics and machine learning, so I'm interested in roles across data engineering, analytics and data science.
 
